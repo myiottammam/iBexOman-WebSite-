@@ -3,345 +3,626 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>iBex Oman</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<title>iBex Oman | Gym & Fitness Equipment Supplier in Oman</title>
+<meta name="description" content="iBex Oman provides professional gym and fitness equipment solutions for commercial gyms, hotels, studios, businesses and home gyms across Oman.">
+<meta name="keywords" content="gym equipment Oman, fitness equipment supplier Oman, commercial gym equipment, home gym Oman, iBex Oman">
+<meta name="author" content="iBex Oman">
+<link rel="canonical" href="https://ibex-oman.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="iBex Oman">
+<meta property="og:title" content="iBex Oman | Gym & Fitness Equipment Supplier in Oman">
+<meta property="og:description" content="Professional gym and fitness equipment solutions for commercial gyms, hotels, studios, businesses and home gyms across Oman.">
+<meta property="og:url" content="https://ibex-oman.com/">
+<meta property="og:image" content="images/logo.jpg">
+<meta name="twitter:card" content="summary">
+
+<!-- Favicon (reuses existing logo) -->
+<link rel="icon" href="images/logo.jpg" type="image/jpeg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "iBex Oman",
+  "description": "Professional gym and fitness equipment supplier for commercial gyms, hotels, studios, businesses and home gyms across Oman.",
+  "url": "https://ibex-oman.com/",
+  "logo": "https://ibex-oman.com/images/logo.jpg",
+  "image": "https://ibex-oman.com/images/logo.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Barka",
+    "addressCountry": "OM"
+  },
+  "telephone": "+968 97543212",
+  "sameAs": [
+    "https://www.instagram.com/ibexoman/"
+  ]
+}
+</script>
 </head>
 <body>
 
+<!-- ============ NAVIGATION ============ -->
 <nav class="navbar" id="navbar">
-<div class="container nav-container">
-<a href="#home" class="logo">
-<img src="https://raw.githubusercontent.com/myiottammam/iBexOman-WebSite-/main/images/logo.jpg" alt="iBex Oman Logo" class="logo-img">
-</a>
-<div class="menu-toggle" id="mobile-menu">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-</div>
-<ul class="nav-menu" id="nav-menu">
-<li><a href="#home" class="nav-link">Home</a></li>
-<li><a href="#about" class="nav-link">About</a></li>
-<li><a href="#services" class="nav-link">Services</a></li>
-<li><a href="#gallery" class="nav-link">Gallery</a></li>
-<li><a href="#contact" class="nav-link">Contact</a></li>
-<li><a href="https://rules.ibex-oman.com/" target="_blank" class="btn-rules">📋 Rules / قوانين</a></li>
-</ul>
-</div>
+  <div class="container nav-container">
+    <a href="#home" class="logo">
+      <img src="images/logo.jpg" alt="iBex Oman logo" class="logo-img" width="44" height="44">
+      <span class="logo-word">iBex <em>Oman</em></span>
+    </a>
+
+    <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#equipment" class="nav-link">Equipment</a></li>
+      <li><a href="#categories" class="nav-link">Categories</a></li>
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li class="nav-cta-item"><a href="#contact" class="btn btn-accent btn-sm">Request a Quote</a></li>
+    </ul>
+  </div>
 </nav>
 
+<!-- ============ HERO ============ -->
 <header id="home" class="hero">
-<div class="hero-overlay"></div>
-<div class="hero-particles"></div>
-<div class="container hero-content">
-<div class="hero-logo-container">
-<img src="https://raw.githubusercontent.com/myiottammam/iBexOman-WebSite-/main/images/logo.jpg" alt="iBex Oman" class="hero-logo">
-</div>
-<div class="hero-badge">ELITE FITNESS CENTER</div>
-<h1 class="hero-title">
-<span class="title-line">PUSH HARDER</span>
-<span class="title-line title-stroke">TRAIN SMARTER</span>
-</h1>
-<p class="hero-slogan">Where limits are broken and legends are made</p>
-<div class="hero-buttons">
-<a href="#contact" class="btn btn-primary">
-<span>Join Now</span>
-<i class="fas fa-arrow-right"></i>
-</a>
-<a href="https://rules.ibex-oman.com/" target="_blank" class="btn btn-outline">
-<span>View Rules</span>
-</a>
-</div>
-<div class="hero-stats">
-<div class="stat-item">
-<div class="stat-number">500+</div>
-<div class="stat-label">Members</div>
-</div>
-<div class="stat-item">
-<div class="stat-number">15+</div>
-<div class="stat-label">Trainers</div>
-</div>
-</div>
-</div>
-<div class="scroll-indicator">
-<div class="scroll-line"></div>
-</div>
+  <div class="hero-grid-pattern" aria-hidden="true"></div>
+  <div class="container hero-content">
+
+    <div class="hero-frame">
+      <span class="corner corner-tl"></span>
+      <span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span>
+      <span class="corner corner-br"></span>
+
+      <p class="eyebrow">Gym &amp; Fitness Equipment Supplier — Oman</p>
+      <h1 class="hero-title">
+        Build Better Gyms.<br>
+        <span class="text-accent">Build Stronger Businesses.</span>
+      </h1>
+      <p class="hero-sub">
+        Professional gym and fitness equipment solutions for commercial gyms,
+        hotels, studios, companies and home gyms across Oman.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#equipment" class="btn btn-primary">Explore Equipment</a>
+        <a href="#contact" class="btn btn-outline">Request a Quote</a>
+        <a href="#" class="btn btn-whatsapp js-whatsapp-link" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i><span>Chat on WhatsApp</span>
+        </a>
+      </div>
+
+      <ul class="hero-specs">
+        <li><i class="fas fa-check"></i> Commercial-grade equipment</li>
+        <li><i class="fas fa-check"></i> Quotation-based, B2B pricing</li>
+        <li><i class="fas fa-check"></i> Oman-wide supply &amp; support</li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="#equipment" class="scroll-indicator" aria-label="Scroll to equipment">
+    <span class="scroll-line"></span>
+  </a>
 </header>
 
-<section id="about" class="section about-section">
-<div class="container">
-<div class="about-grid">
-<div class="about-image">
-<div class="image-wrapper">
-<img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1470&auto=format&fit=crop" alt="Gym Interior">
-<div class="image-overlay"></div>
-</div>
-</div>
-<div class="about-content">
-<div class="section-label">WHO WE ARE</div>
-<h2 class="section-title">
-Transform Your <span class="text-red">Body & Mind</span>
-</h2>
-<p class="about-description">
-iBex Oman is not just a place to workout—it's a sanctuary for transformation. We provide state-of-the-art equipment, elite personal training, and a motivating atmosphere designed to help you reach your peak physical potential.
-</p>
-<p class="about-description">
-Our mission is to empower every individual who walks through our doors with the tools, knowledge, and support needed to achieve their fitness goals.
-</p>
-<ul class="about-features">
-<li>
-<div class="feature-icon"><i class="fas fa-dumbbell"></i></div>
-<div class="feature-text">
-<h4>Professional Trainers</h4>
-<p>Certified experts dedicated to your success</p>
-</div>
-</li>
-<li>
-<div class="feature-icon"><i class="fas fa-trophy"></i></div>
-<div class="feature-text">
-<h4>Modern Equipment</h4>
-<p>Latest technology for optimal results</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
+<!-- ============ EQUIPMENT CATEGORIES ============ -->
+<section id="categories" class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">What We Supply</p>
+      <h2 class="section-title">Equipment Categories</h2>
+      <p class="section-subtitle">A complete range for every kind of training environment.</p>
+    </div>
+
+    <div class="category-grid">
+
+      <article class="category-card">
+        <div class="category-icon"><i class="fas fa-dumbbell"></i></div>
+        <h3>Strength Equipment</h3>
+        <ul class="category-list">
+          <li>Power Racks</li>
+          <li>Squat Racks</li>
+          <li>Smith Machines</li>
+          <li>Cable Machines</li>
+          <li>Functional Trainers</li>
+          <li>Benches</li>
+          <li>Plate Loaded Machines</li>
+        </ul>
+        <a href="#equipment" class="category-link">View Equipment <i class="fas fa-arrow-right"></i></a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon"><i class="fas fa-heart-pulse"></i></div>
+        <h3>Cardio Equipment</h3>
+        <ul class="category-list">
+          <li>Treadmills</li>
+          <li>Commercial Bikes</li>
+          <li>Elliptical Trainers</li>
+          <li>Rowing Machines</li>
+          <li>Stair Climbers</li>
+        </ul>
+        <a href="#equipment" class="category-link">View Equipment <i class="fas fa-arrow-right"></i></a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon"><i class="fas fa-weight-hanging"></i></div>
+        <h3>Free Weights</h3>
+        <ul class="category-list">
+          <li>Dumbbells</li>
+          <li>Barbells</li>
+          <li>Weight Plates</li>
+          <li>Kettlebells</li>
+          <li>Benches</li>
+        </ul>
+        <a href="#equipment" class="category-link">View Equipment <i class="fas fa-arrow-right"></i></a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon"><i class="fas fa-person-running"></i></div>
+        <h3>Functional Training</h3>
+        <ul class="category-list">
+          <li>Functional Rigs</li>
+          <li>Cable Systems</li>
+          <li>Battle Ropes</li>
+          <li>Sleds</li>
+          <li>Plyometric Equipment</li>
+          <li>Accessories</li>
+        </ul>
+        <a href="#equipment" class="category-link">View Equipment <i class="fas fa-arrow-right"></i></a>
+      </article>
+
+      <article class="category-card">
+        <div class="category-icon"><i class="fas fa-layer-group"></i></div>
+        <h3>Gym Accessories</h3>
+        <ul class="category-list">
+          <li>Flooring</li>
+          <li>Mirrors</li>
+          <li>Storage</li>
+          <li>Mats</li>
+          <li>Exercise Accessories</li>
+        </ul>
+        <a href="#equipment" class="category-link">View Equipment <i class="fas fa-arrow-right"></i></a>
+      </article>
+
+    </div>
+  </div>
 </section>
 
-<section id="services" class="section services-section">
-<div class="container">
-<div class="section-header">
-<div class="section-label">WHAT WE OFFER</div>
-<h2 class="section-title">
-Our <span class="text-red">Services</span>
-</h2>
-<p class="section-subtitle">Comprehensive fitness solutions tailored to your goals</p>
-</div>
-<div class="services-grid">
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-dumbbell service-icon"></i>
-</div>
-<h3>Bodybuilding</h3>
-<p>Heavy weights and specialized machines to build muscle mass effectively with expert guidance.</p>
-<div class="service-arrow">→</div>
-</div>
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-heart-pulse service-icon"></i>
-</div>
-<h3>Cardio & Fitness</h3>
-<p>Treadmills, rowers, and bikes to boost endurance and burn calories efficiently.</p>
-<div class="service-arrow">→</div>
-</div>
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-user-ninja service-icon"></i>
-</div>
-<h3>Personal Training</h3>
-<p>One-on-one coaching tailored to your specific goals and body type for maximum results.</p>
-<div class="service-arrow">→</div>
-</div>
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-users service-icon"></i>
-</div>
-<h3>Group Classes</h3>
-<p>High-energy classes including HIIT, Yoga, and CrossFit style training with community support.</p>
-<div class="service-arrow">→</div>
-</div>
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-running service-icon"></i>
-</div>
-<h3>Functional Training</h3>
-<p>Real-world movement patterns to improve daily performance and prevent injuries.</p>
-<div class="service-arrow">→</div>
-</div>
-<div class="service-card">
-<div class="service-icon-wrapper">
-<i class="fas fa-medal service-icon"></i>
-</div>
-<h3>Membership Plans</h3>
-<p>Flexible options designed to fit your lifestyle and budget with premium benefits.</p>
-<div class="service-arrow">→</div>
-</div>
-</div>
-</div>
+<!-- ============ FEATURED EQUIPMENT ============ -->
+<section id="equipment" class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Browse the Range</p>
+      <h2 class="section-title">Featured Equipment</h2>
+      <p class="section-subtitle">A sample of what we supply. Every price is quotation-based — tell us your requirements and we'll put together a proposal.</p>
+    </div>
+
+    <!-- Filter + search controls -->
+    <div class="equipment-controls">
+      <div class="filter-tabs" id="filter-tabs" role="tablist" aria-label="Filter equipment by category">
+        <button class="filter-tab is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-tab" data-filter="strength" role="tab" aria-selected="false">Strength</button>
+        <button class="filter-tab" data-filter="cardio" role="tab" aria-selected="false">Cardio</button>
+        <button class="filter-tab" data-filter="free-weights" role="tab" aria-selected="false">Free Weights</button>
+        <button class="filter-tab" data-filter="functional" role="tab" aria-selected="false">Functional</button>
+        <button class="filter-tab" data-filter="accessories" role="tab" aria-selected="false">Accessories</button>
+      </div>
+      <div class="search-box">
+        <i class="fas fa-magnifying-glass"></i>
+        <input type="text" id="equipment-search" placeholder="Search equipment…" aria-label="Search equipment">
+      </div>
+    </div>
+
+    <!--
+      PRODUCT PHOTOS: each .product-visual below is a placeholder panel (no external
+      image file) so nothing breaks on GitHub Pages before real photos are added.
+      To add a real photo, replace the placeholder div with:
+      <img src="images/equipment/your-photo.jpg" alt="Product name" loading="lazy">
+    -->
+    <div class="product-grid" id="product-grid">
+
+      <article class="product-card" data-category="strength">
+        <div class="product-visual"><i class="fas fa-dumbbell"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Strength</span>
+          <h3>Power Rack</h3>
+          <p>Heavy-duty commercial power rack built for squats, presses and pull-ups in high-traffic training floors.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="strength">
+        <div class="product-visual"><i class="fas fa-arrows-left-right-to-line"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Strength</span>
+          <h3>Functional Trainer</h3>
+          <p>Dual-stack cable trainer for strength and functional movement patterns, suited to commercial gym floors.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cardio">
+        <div class="product-visual"><i class="fas fa-person-running"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Cardio</span>
+          <h3>Commercial Treadmill</h3>
+          <p>Rated for continuous commercial use — built for hotels, gyms and studios with heavy daily footfall.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cardio">
+        <div class="product-visual"><i class="fas fa-water"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Cardio</span>
+          <h3>Rowing Machine</h3>
+          <p>Full-body cardio machine, a compact and durable addition to any commercial cardio zone.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="free-weights">
+        <div class="product-visual"><i class="fas fa-weight-hanging"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Free Weights</span>
+          <h3>Rubber Hex Dumbbells</h3>
+          <p>Full weight-range dumbbell sets designed to withstand repeated commercial use.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="free-weights">
+        <div class="product-visual"><i class="fas fa-circle-dot"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Free Weights</span>
+          <h3>Olympic Weight Plates</h3>
+          <p>Bumper and iron plate options to match any barbell training setup.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="functional">
+        <div class="product-visual"><i class="fas fa-border-all"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Functional</span>
+          <h3>Functional Training Rig</h3>
+          <p>Modular rig systems for functional training zones — configurable to the space you have.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="functional">
+        <div class="product-visual"><i class="fas fa-truck-ramp-box"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Functional</span>
+          <h3>Training Sled</h3>
+          <p>Push/pull conditioning sled for functional and athletic training programs.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="accessories">
+        <div class="product-visual"><i class="fas fa-vector-square"></i></div>
+        <div class="product-body">
+          <span class="product-tag">Accessories</span>
+          <h3>Gym Flooring</h3>
+          <p>Interlocking rubber flooring tiles for strength zones, cardio areas and functional spaces.</p>
+          <a href="#contact" class="btn btn-outline btn-sm">Request Quote</a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="empty-state" id="empty-state" hidden>No equipment matches your search — try a different term or category.</p>
+  </div>
 </section>
 
-<section id="gallery" class="section gallery-section">
-<div class="container">
-<div class="section-header">
-<div class="section-label">THE ARENA</div>
-<h2 class="section-title">
-Where Champions <span class="text-red">Train</span>
-</h2>
-<p class="section-subtitle">Step inside our world-class facility</p>
-</div>
-<div class="gallery-grid">
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=800&auto=format&fit=crop" alt="Weights">
-<div class="gallery-overlay">
-<div class="gallery-text">Free Weights Zone</div>
-</div>
-</div>
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=800&auto=format&fit=crop" alt="Training">
-<div class="gallery-overlay">
-<div class="gallery-text">Personal Training</div>
-</div>
-</div>
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=800&auto=format&fit=crop" alt="Gym Equipment">
-<div class="gallery-overlay">
-<div class="gallery-text">Modern Equipment</div>
-</div>
-</div>
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800&auto=format&fit=crop" alt="Cardio">
-<div class="gallery-overlay">
-<div class="gallery-text">Cardio Zone</div>
-</div>
-</div>
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1623874514711-0f321325f318?q=80&w=800&auto=format&fit=crop" alt="Heavy Lifting">
-<div class="gallery-overlay">
-<div class="gallery-text">Strength Training</div>
-</div>
-</div>
-<div class="gallery-item">
-<img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=800&auto=format&fit=crop" alt="Functional Training">
-<div class="gallery-overlay">
-<div class="gallery-text">Functional Area</div>
-</div>
-</div>
-</div>
-</div>
+<!-- ============ WHY iBEX OMAN ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Why Work With Us</p>
+      <h2 class="section-title">Why Choose iBex Oman?</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-medal"></i></div>
+        <h3>Professional Equipment</h3>
+        <p>Quality equipment selected for serious training environments.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-building"></i></div>
+        <h3>Commercial Solutions</h3>
+        <p>Equipment solutions suitable for commercial gyms, hotels, studios and businesses.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-warehouse"></i></div>
+        <h3>Complete Gym Solutions</h3>
+        <p>From individual machines to complete gym setups.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-location-dot"></i></div>
+        <h3>Oman-Based Support</h3>
+        <p>Local support and communication for customers across Oman.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-drafting-compass"></i></div>
+        <h3>Custom Gym Projects</h3>
+        <p>Help customers plan and equip complete fitness facilities.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><i class="fas fa-handshake"></i></div>
+        <h3>Competitive Solutions</h3>
+        <p>Professional equipment solutions designed around the customer's requirements and budget.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="contact" class="section contact-section">
-<div class="container">
-<div class="section-header">
-<div class="section-label">GET IN TOUCH</div>
-<h2 class="section-title">
-Find <span class="text-red">Us</span>
-</h2>
-<p class="section-subtitle">Visit us today and start your transformation</p>
-</div>
-<div class="contact-wrapper">
-<div class="contact-info">
-<div class="info-card">
-<div class="info-icon">
-<i class="fas fa-location-dot"></i>
-</div>
-<div class="info-content">
-<h4>Location</h4>
-<p>iBex Oman<br>Barka, Oman</p>
-</div>
-</div>
-<div class="info-card">
-<div class="info-icon">
-<i class="fas fa-phone"></i>
-</div>
-<div class="info-content">
-<h4>Call Us</h4>
-<p>+968 97543212</p>
-</div>
-</div>
-<div class="info-card">
-<div class="info-icon">
-<i class="fas fa-clock"></i>
-</div>
-<div class="info-content">
-<h4>Working Hours</h4>
-<p>Sat - Thu: 9:00 AM - 12:00 AM<br>Fri: 3:00 PM - 10:00 PM</p>
-</div>
-</div>
-<a href="https://rules.ibex-oman.com/" target="_blank" class="btn btn-gold-full">
-<i class="fas fa-book"></i>
-<span>View Club Rules</span>
-</a>
-</div>
-<div class="map-wrapper">
-<div class="map-container">
-<iframe src="https://www.google.com/maps?q=Opower+GYM+%D8%B5%D8%A7%D9%84%D8%A9+%D8%A7%D9%88+%D8%A8%D8%A7%D9%88%D8%B1,+Barka&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
-</div>
-</div>
-</div>
+<!-- ============ COMMERCIAL GYM SOLUTIONS ============ -->
+<section class="section section-dark section-commercial">
+  <div class="hero-grid-pattern" aria-hidden="true"></div>
+  <div class="container">
+    <div class="commercial-grid">
+      <div class="commercial-content">
+        <p class="eyebrow">For Businesses</p>
+        <h2 class="section-title">From Empty Space to Complete Gym</h2>
+        <p class="section-subtitle section-subtitle-left">
+          iBex Oman helps businesses plan and equip complete fitness facilities from the ground up —
+          whatever kind of space you're working with.
+        </p>
+        <a href="#contact" class="btn btn-primary">Plan Your Gym</a>
+      </div>
+      <div class="commercial-list">
+        <div class="commercial-item"><i class="fas fa-check"></i> Commercial gyms</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Hotels</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Residential buildings</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Fitness studios</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Corporate gyms</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Schools</div>
+        <div class="commercial-item"><i class="fas fa-check"></i> Personal training studios</div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ PROJECTS / INSTALLATIONS ============ -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Our Work</p>
+      <h2 class="section-title">Gym Projects &amp; Installations</h2>
+      <p class="section-subtitle">A look at completed installations and equipment setups.</p>
+    </div>
+
+    <!--
+      No project photos exist in the repository yet. These are structured
+      placeholders — replace each .project-visual div with:
+      <img src="images/projects/your-photo.jpg" alt="Description" loading="lazy">
+      once real installation photos are available. Do not remove the
+      surrounding <figure> / caption markup when you do.
+    -->
+    <div class="project-grid">
+      <figure class="project-card">
+        <div class="project-visual"><i class="fas fa-dumbbell"></i></div>
+        <figcaption>Strength Area <span>Photos coming soon</span></figcaption>
+      </figure>
+      <figure class="project-card">
+        <div class="project-visual"><i class="fas fa-heart-pulse"></i></div>
+        <figcaption>Cardio Area <span>Photos coming soon</span></figcaption>
+      </figure>
+      <figure class="project-card">
+        <div class="project-visual"><i class="fas fa-person-running"></i></div>
+        <figcaption>Functional Training Area <span>Photos coming soon</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section section-alt">
+  <div class="container about-container">
+    <p class="eyebrow">Who We Are</p>
+    <h2 class="section-title">About iBex Oman</h2>
+    <p class="about-text">
+      iBex Oman provides gym and fitness equipment solutions across Oman, supplying commercial gyms,
+      home gyms, hotels, fitness studios, schools, companies and personal training facilities.
+    </p>
+    <p class="about-text">
+      We focus on quality, reliability and equipment suited to real training environments — helping
+      customers find the right solution for their space, their budget and their requirements, from
+      single machines to complete gym setups.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta-section">
+  <div class="container cta-content">
+    <h2>Ready to Build Your Gym?</h2>
+    <p>Tell us what you need and our team will help you find the right equipment solution.</p>
+    <div class="cta-buttons">
+      <a href="#contact" class="btn btn-primary">Request a Quote</a>
+      <a href="#" class="btn btn-whatsapp js-whatsapp-link" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i><span>WhatsApp Us</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-header">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">Request a Quotation</h2>
+      <p class="section-subtitle">Tell us about your project and we'll get back to you with a proposal.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+
+        <a href="#" class="info-card js-whatsapp-link" target="_blank" rel="noopener">
+          <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+          <div>
+            <h4>WhatsApp</h4>
+            <!-- TODO: replace with the real WhatsApp number -->
+            <p>+968 XXXX XXXX <span class="placeholder-flag">(add WhatsApp number)</span></p>
+          </div>
+        </a>
+
+        <a href="tel:+96897543212" class="info-card">
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h4>Call Us</h4>
+            <p>+968 97543212</p>
+          </div>
+        </a>
+
+        <a href="mailto:info@ibex-oman.com" class="info-card">
+          <div class="info-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <!-- TODO: confirm this is a real, monitored inbox -->
+            <p>info@ibex-oman.com <span class="placeholder-flag">(confirm inbox)</span></p>
+          </div>
+        </a>
+
+        <div class="info-card">
+          <div class="info-icon"><i class="fas fa-location-dot"></i></div>
+          <div>
+            <h4>Location</h4>
+            <p>Barka, Oman</p>
+          </div>
+        </div>
+
+        <a href="https://www.instagram.com/ibexoman/" target="_blank" rel="noopener" class="info-card">
+          <div class="info-icon"><i class="fab fa-instagram"></i></div>
+          <div>
+            <h4>Instagram</h4>
+            <p>@ibexoman</p>
+          </div>
+        </a>
+
+      </div>
+
+      <!--
+        Form has no backend wired up (GitHub Pages can't run server code).
+        Connect action="" to a form service (e.g. Formspree, Getform) later —
+        the fields and names are already structured for that.
+      -->
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-name">Name</label>
+            <input type="text" id="f-name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="f-phone">Phone</label>
+            <input type="tel" id="f-phone" name="phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="f-company">Company</label>
+            <input type="text" id="f-company" name="company">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="f-looking-for">What are you looking for?</label>
+          <select id="f-looking-for" name="looking_for">
+            <option value="">Select an option</option>
+            <option value="Strength Equipment">Strength Equipment</option>
+            <option value="Cardio Equipment">Cardio Equipment</option>
+            <option value="Free Weights">Free Weights</option>
+            <option value="Functional Training">Functional Training</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Complete Gym Setup">Complete Gym Setup</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="f-message">Message</label>
+          <textarea id="f-message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+        <p class="form-note" id="form-note" hidden>Thanks — this demo form isn't connected to a backend yet. See the setup notes for how to wire it up.</p>
+      </form>
+
+    </div>
+
+    <div class="map-wrapper">
+      <iframe
+        title="iBex Oman location — Barka, Oman"
+        src="https://www.google.com/maps?q=Barka,+Oman&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
 <footer class="footer">
-<div class="container">
-<div class="footer-content">
-<div class="footer-brand">
-<div class="footer-logo">
-<img src="https://raw.githubusercontent.com/myiottammam/iBexOman-WebSite-/main/images/logo.jpg" alt="iBex Oman" class="footer-logo-img">
-</div>
-<p class="footer-tagline">Push Harder, Train Smarter</p>
-</div>
-<div class="footer-social">
-<a href="https://www.instagram.com/ibexoman/" target="_blank" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-<a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-<a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-<a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-</div>
-</div>
-<div class="footer-bottom">
-<p>&copy; 2026 iBex Oman. All rights reserved.</p>
-</div>
-</div>
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <img src="images/logo.jpg" alt="iBex Oman logo" class="footer-logo-img" width="48" height="48">
+      <div>
+        <p class="footer-name">iBex Oman</p>
+        <p class="footer-tagline">Gym &amp; Fitness Equipment</p>
+      </div>
+    </div>
+
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#equipment">Equipment</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About Us</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer-contact">
+      <a href="#" class="js-whatsapp-link" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="tel:+96897543212"><i class="fas fa-phone"></i> +968 97543212</a>
+      <a href="mailto:sales@ibex-oman.com"><i class="fas fa-envelope"></i> info@ibex-oman.com</a>
+      <a href="https://www.instagram.com/ibexoman/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 iBex Oman. All Rights Reserved.</p>
+  </div>
 </footer>
 
-<script>
-// Mobile Menu Toggle
-const menuToggle = document.getElementById('mobile-menu');
-const navMenu = document.getElementById('nav-menu');
+<!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+<a href="#" class="whatsapp-float js-whatsapp-link" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
-menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('is-active');
-  navMenu.classList.toggle('active');
-});
-
-// Close menu when link is clicked
-document.querySelectorAll('.nav-link').forEach(link => {
-  link.addEventListener('click', () => {
-    menuToggle.classList.remove('is-active');
-    navMenu.classList.remove('active');
-  });
-});
-
-// Sticky Navbar on Scroll
-window.addEventListener('scroll', () => {
-  const navbar = document.getElementById('navbar');
-  if (window.scrollY > 100) {
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
-});
-
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    const href = this.getAttribute('href');
-    if (href !== '#' && href !== '#home') {
-      e.preventDefault();
-      const target = document.querySelector(href);
-      if (target) {
-        const offsetTop = target.offsetTop - 80;
-        window.scrollTo({
-          top: offsetTop,
-          behavior: 'smooth'
-        });
-      }
-    }
-  });
-});
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
