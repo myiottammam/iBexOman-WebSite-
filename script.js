@@ -1,20 +1,4 @@
-const header=document.getElementById('header');
-const menuBtn=document.getElementById('menuBtn');
-const nav=document.getElementById('nav');
-const reveals=document.querySelectorAll('.reveal');
-
-const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>30);
-window.addEventListener('scroll',onScroll,{passive:true});onScroll();
-
-menuBtn?.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
-nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn?.setAttribute('aria-expanded','false');}));
-
-if('IntersectionObserver' in window){
- const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target)}}),{threshold:.12});
- reveals.forEach(el=>io.observe(el));
-}else reveals.forEach(el=>el.classList.add('is-visible'));
-
-// Smooth anchor fallback for browsers that ignore CSS scrolling.
-document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',e=>{
- const id=link.getAttribute('href'); if(id&&id.length>1){const target=document.querySelector(id);if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}}
-}));
+const menu=document.getElementById('menu'),links=document.getElementById('links');
+menu.addEventListener('click',()=>{const open=links.classList.toggle('open');menu.setAttribute('aria-expanded',open)});
+document.querySelectorAll('#links a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+document.getElementById('quoteForm').addEventListener('submit',e=>{e.preventDefault();const f=new FormData(e.currentTarget);const text=`Hello iBex Oman, I would like to request a quotation.%0A%0AName: ${encodeURIComponent(f.get('name'))}%0APhone: ${encodeURIComponent(f.get('phone'))}%0AProject: ${encodeURIComponent(f.get('project'))}%0ARequirements: ${encodeURIComponent(f.get('message')||'Not specified')}`;window.open(`https://wa.me/96897543212?text=${text}`,'_blank')});
